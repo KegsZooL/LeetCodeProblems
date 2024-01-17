@@ -13,17 +13,23 @@ public class Solution {
         return sortedArrayToBST(nums, 0, nums.length - 1);
     }
 
-    private TreeNode sortedArrayToBST(int[] nums, int start, int end){
+    private TreeNode sortedArrayToBST(int[] nums, int startIndex, int endIndex){
 
-        if(start > end){
+        if(startIndex > endIndex){
             return null;
         }
 
-        int middle = start + (end - start) / 2;
+        //Get the middle element and make it root
+        int middle = startIndex + (endIndex - startIndex) / 2;
         TreeNode root = new TreeNode(nums[middle]);
 
-        root.left = sortedArrayToBST(nums, start, middle - 1);
-        root.right = sortedArrayToBST(nums, middle + 1, end);
+        /* Recursively construct the left subtree and make it
+        left child of root */
+        root.left = sortedArrayToBST(nums, startIndex, middle - 1);
+
+        /* Recursively construct the right subtree and make it
+        right child of root */
+        root.right = sortedArrayToBST(nums, middle + 1, endIndex);
 
         return root;
     }
