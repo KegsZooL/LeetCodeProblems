@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://media1.tenor.com/m/Gp26iZQcdqQAAAAC/two-sum-leetcode.gif" alt="">
+</div>
+
 LeetCode
 ========
 
