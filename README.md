@@ -13,3 +13,4 @@ LeetCode
 |4|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[Java](./src/com/leetcode/linkedlist/problem_234/Solution.java)|Easy|
 |5|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](./src/com/leetcode/linkedlist/problem_876/Solution.java)|Easy|
 |6|[Two Sum](https://leetcode.com/problems/two-sum/solutions/)|[Java](./src/com/leetcode/problem_1/Solution.java)|Easy|
+|7|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth)|[Java](./src/com/leetcode/matrix/problem_1672/Solution.java)|Easy|
